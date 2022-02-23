@@ -3,7 +3,9 @@
         <Label text="Home" />
     </ActionBar>
 
-    <GridLayout>
-        <!-- Add your page content here -->
+    <GridLayout rows="30, 30, 30" columns="20,*,20">
+        <Label text="{{ x }}" row="0" col="1" backgroundColor="#92a8d1"></Label>
+        <Label text="{{ y }}" row="1" col="1" backgroundColor="#92a8d1"></Label>
+        <Label text="{{ z }}" row="2" col="1" backgroundColor="#92a8d1"></Label>
     </GridLayout>
 </Page>
