@@ -1,11 +1,11 @@
 <Page navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd">
     <ActionBar>
-        <Label text="Home" />
+        <Label text="Akcelerometar" style.font-size="20"/>
     </ActionBar>
 
-    <GridLayout rows="30, 30, 30" columns="20,*,20">
-        <Label text="{{ x }}" row="0" col="1" backgroundColor="#92a8d1"></Label>
-        <Label text="{{ y }}" row="1" col="1" backgroundColor="#92a8d1"></Label>
-        <Label text="{{ z }}" row="2" col="1" backgroundColor="#92a8d1"></Label>
+    <GridLayout rows="100, 50, 0" columns="106,107,107" backgroundColor="lightgray" style.text-align="center">
+        <Label text="{{ x }}" row="1" col="0" backgroundColor="#ea4c46" style.text-align="center" style.font-size="20" ></Label>
+        <Label text="{{ y }}" row="1" col="1" backgroundColor="#86dc3d" style.text-align="center" style.font-size="20" ></Label>
+        <Label text="{{ z }}" row="1" col="2" backgroundColor="#59bfff" style.text-align="center" style.font-size="20" ></Label>
     </GridLayout>
 </Page>

@@ -9,9 +9,9 @@ export function HomeViewModel() {
 
     var accelerometer = require("nativescript-accelerometer")
     accelerometer.startAccelerometerUpdates(function(data) {
-        viewModel.set('x','x = ' + data.x.toFixed(3))
-        viewModel.set('y', 'y = ' + data.y.toFixed(3))
-        viewModel.set('z', 'z = ' +  data.z.toFixed(3))
+        viewModel.set('x','X = ' + data.x.toFixed(3))
+        viewModel.set('y', 'Y = ' + data.y.toFixed(3))
+        viewModel.set('z', 'Z = ' +  data.z.toFixed(3))
   }, { sensorDelay: "ui" })
 
   return viewModel
